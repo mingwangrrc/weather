@@ -11,9 +11,8 @@ The Temperature App allows users to create their own accounts, log in, and edit 
 
 ### Prerequisites
 To stand up the Temperature App, ensure you have the following installed on your local machine:
-- **Node.js**: Version 14 or higher
-- **npm**: Comes with Node.js for managing dependencies
-- **MongoDB**: A local or remote instance to store user information
+- **Android Studio**: To open and run the application
+- **Android SDK**: Ensure your Android SDK is set up properly
 
 ### Installation
 Follow these steps to install and run the application locally:
@@ -21,42 +20,26 @@ Follow these steps to install and run the application locally:
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/mingwangrrc/weather.git
-   cd weather
    ```
 
-2. **Install Dependencies**
-   Use npm to install the required dependencies for the application:
-   ```sh
-   npm install
+2. **Open in Android Studio**
+   - Open Android Studio.
+   - Select "Open an Existing Project" and navigate to the cloned repository folder.
+
+3. **Update SDK Location**
+   - Navigate to `local.properties` in the project root.
+   - Update the `sdk.dir` to point to your local Android SDK installation:
+   ```properties
+   sdk.dir=/path/to/your/android/sdk
    ```
 
-3. **Set Up Environment Variables**
-   Create a `.env` file in the root of your project with the following values:
-   ```env
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   WEATHER_API_KEY=your_weather_api_key
-   ```
-   - Replace `your_mongodb_connection_string` with the URI for your MongoDB instance.
-   - Replace `your_weather_api_key` with your API key from the weather service provider.
-
-4. **Run the Application**
-   Start the server using the command:
-   ```sh
-   npm start
-   ```
-   By default, the application will run on `http://localhost:3000`.
-
-### Running in Development Mode
-To run the app in development mode with auto-reloading, use:
-```sh
-npm run dev
-```
-This requires `nodemon`, which will monitor for changes and restart the server automatically.
+4. **Build and Run**
+   - Click on "Build" to make sure everything is set up properly.
+   - Run the app using an emulator or a physical Android device.
 
 ### Accessing the Application
-- **Sign Up**: Visit `http://localhost:3000/signup` to create a new account.
-- **Log In**: Log in with your credentials at `http://localhost:3000/login`.
+- **Sign Up**: Create a new account to get started.
+- **Log In**: Log in with your credentials.
 - **Search Temperature**: Once logged in, navigate to the search page to explore weather data.
 
 ## Usage
@@ -66,9 +49,9 @@ This requires `nodemon`, which will monitor for changes and restart the server a
 - **Temperature Details**: Input a city name to get the current temperature, weather icons for day or night, coordinates, and detailed forecasts including wind, pressure, humidity, and UV levels.
 
 ## Technologies Used
-- **Backend**: Node.js, Express.js
+- **Android**: Developed with Android Studio
 - **Database**: MongoDB
-- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
 - **Weather API**: A third-party weather API to fetch the temperature and weather details
 
 ## Contributing
