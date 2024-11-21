@@ -43,7 +43,7 @@ Follow these steps to install and run the application locally:
 - **Search City's Temperature**: Once logged in, navigate to the search page to explore weather data.
 
 ## Usage
-- **Resiger**: Create your user account by providing basic information.
+- **Register**: Create your user account by providing basic information.
 - **Login**: After logging in, you can search for any city's weather details.
 - **Edit Profile**: Manage your profile information from your account settings.
 - **Temperature Details**: Input a city name to get the current temperature, weather icons for day or night, coordinates, and detailed forecasts including wind, pressure, humidity, and UV levels.
