@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.MineFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatarImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:src="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/accountTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account: 1231231"
+            android:textSize="20sp"
+            android:layout_marginVertical="20dp"
+            />
+
+        <TextView
+            android:id="@+id/emailTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: 1231231"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+           <TextView
+               android:id="@+id/addBt"
+               android:layout_width="60dp"
+               android:layout_height="wrap_content"
+               android:text="+"
+               android:textSize="40sp"
+               android:textAlignment="center"
+               />
+
+            <EditText
+                android:id="@+id/sizeET"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:enabled="false"
+                android:text="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@drawable/register_edittext_background" />
+
+            <TextView
+                android:id="@+id/reduceBt"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/colorBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color blind mode"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/editBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/logoutBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
