@@ -10,7 +10,7 @@ The Temperature App allows users to create their own accounts, log in, and edit 
 ## Getting Started
 
 ### Prerequisites
-To stand up the Temperature App, ensure you have the following installed on your local machine:
+To stand up the Weather App, ensure you have the following installed on your local machine:
 - **Android Studio**: To open and run the application
 - **Android SDK**: Ensure your Android SDK is set up properly
 
@@ -40,7 +40,7 @@ Follow these steps to install and run the application locally:
 ### Accessing the Application
 - **Sign Up**: Create a new account to get started.
 - **Log In**: Log in with your credentials.
-- **Search Temperature**: Once logged in, navigate to the search page to explore weather data.
+- **Search City's Temperature**: Once logged in, navigate to the search page to explore weather data.
 
 ## Usage
 - **Sign Up**: Create your user account by providing basic information.
@@ -52,7 +52,7 @@ Follow these steps to install and run the application locally:
 - **Android**: Developed with Android Studio
 - **Database**: MongoDB
 - **Backend**: Node.js, Express.js
-- **Weather API**: A third-party weather API to fetch the temperature and weather details
+- **Weather API**: A third-party weather API to fetch the temperature and weather details: https://weatherstack.com/
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -62,11 +62,8 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 If you have any questions or issues, feel free to contact the project maintainer:
-- **Email**: maintainer@example.com
+- **Email**: mingwang@academic.rrc.ca
 - **GitHub**: [mingwangrrc](https://github.com/mingwangrrc)
 
