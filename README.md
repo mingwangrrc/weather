@@ -1,4 +1,4 @@
-# Temperature App
+# Weather App
 
 The Temperature App allows users to create their own accounts, log in, and edit their profiles. Once logged in, users can search for the temperature of any city around the world. The temperature page provides detailed weather information, including icons to show whether it's day or night in the city, current temperature, geographic coordinates, and a forecast that covers various aspects of the weather conditions.
 
